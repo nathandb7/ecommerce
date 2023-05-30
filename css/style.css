@@ -21,8 +21,17 @@ body {
   margin: 0 auto;
 }
 
-nav {
+header {
   background: #2fcdcd;
+  position: relative;
+  z-index: 3;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1230px;
+  position: relative;
+  z-index: 2;
   height: 80px;
   width: 100%;
 }
@@ -30,9 +39,6 @@ nav {
 .logo {
   position: absolute;
   padding: 10px 50px;
-}
-
-.logo {
   height: 40px;
 }
 
