@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/banner-info.css">
     <title>Ecommerce - by Nathan</title>
 </head>
 
@@ -30,14 +31,79 @@
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
-
     </header>
+    <main class="main-container">
+        <section class="banners">
 
-    <div class="content">
-        <h1>Bienvenido a Ecommerce HCJ</h1>
-        <p>Explora nuestra amplia selección de productos.</p>
-    </div>
+            <div class="slideshow">
+              <div class="slideshow-container">
+                <div class="slide">
+                  <img src="img/banner-1.png" alt="Slide 1">
+                  <div class="caption">
+                    <h2>Slide 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="img/banner-2.png" alt="Slide 2">
+                  <div class="caption">
+                    <h2>Slide 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="img/banner-3.png" alt="Slide 3">
+                  <div class="caption">
+                    <h2>Slide 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- <div class="fixed-image">
+              <img src="img/FB-1500x1500.jpg" alt="Imagen fija">
+            </div> -->
+          </section>
+        
+        <div class="banners-info-home border-radius-cards border-shadow-cards">
+            <div class="inner-div">
+                <span class="icon-svg box-svg"></span>
+                <p>Qué es nuestra tienda. Fácil, rápido y seguro. <a onclick="gaSendEvent('Cómo comprar','Home');"
+                        data-toggle="modal" id="como_comprar_light">Cómo comprar</a></p>
+            </div>
+            <div class="inner-div border-left">
+                <img src="img/avion-info-home.svg" alt="" srcset="" class="icon-svg">
+                <p>Información de Aduanas. Hacemos todo por ti. <a href="#">Saber más</a></p>
+            </div>
+            <div class="inner-div border-left">
+                <div class="cards-container">
+                    <span class="visa-svg"></span>
+                    <span class="master-svg"></span>
+                    <span class="amex-svg"></span>
+                    <span class="ocaNew"></span>
+                    <span class="pagoefectivo-svg"></span>
+                    <span class="rapipago-svg"></span>
+                    <span class="diners-svg"></span>
+                    <span class="diners-svg"></span>
+                </div>
+                <p class="">Paga con crédito o débito. <br>
+                    <a href="">Ver promociones</a>
+                </p>
+            </div>
+            <div class="inner-div border-left">
+                <span class="icon-svg help-svg"></span>
+                <p>Ayuda y seguimiento en tu idioma. Centro de ayuda en línea
+                </p>
+            </div>
+        </div>
 
+
+        <div class="content">
+            <h2>Bienvenido a Ecommerce HCJ</h2>
+            <p>Explora nuestra amplia selección de productos.</p>
+        </div>
+    </main>
     <footer>
         <p>Todos los derechos reservados &copy; 2023 Ecommerce - by Nathan</p>
     </footer>
